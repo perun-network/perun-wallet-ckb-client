@@ -1,0 +1,33 @@
+{
+  "name": "wallet-ckb-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@ckb-lumos/base": "^0.20.0",
+    "@ckb-lumos/codec": "^0.20.0",
+    "@ckb-lumos/config-manager": "^0.20.0",
+    "@ckb-lumos/hd": "^0.20.0",
+    "@ckb-lumos/helpers": "^0.20.0",
+    "@ckb-lumos/lumos": "^0.20.0",
+    "@nervosnetwork/ckb-sdk-core": "^0.109.0",
+    "@types/elliptic": "^6.4.17",
+    "bip32": "^4.0.0",
+    "bitcoinjs-lib": "^6.1.5",
+    "elliptic": "^6.5.4",
+    "tiny-secp256k1": "^2.2.3",
+    "ts-node": "^10.9.1"
+  }
+}
