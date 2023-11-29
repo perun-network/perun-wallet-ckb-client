@@ -177,8 +177,8 @@ async function main(
       balances: [
         {
           balance: [
-            bytes.bytify("0xfa56ea00"), // Alice's balance.
-            bytes.bytify("0xfa56ea00"), // Bob's balance.
+            bytes.bytify("0x02540be400"), // Alice's balance (100 CKBytes).
+            bytes.bytify("0x02540be400"), // Bob's balance (100 CKBytes).
           ],
         },
       ],
